@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataProtection.Web", "DataProtection.Web\DataProtection.Web.csproj", "{A9A47481-28A0-47F7-BAD0-AAA1DFC13D0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteBlackList.Web", "WhiteBlackList.Web\WhiteBlackList.Web.csproj", "{680CE905-0929-4F2C-A4D3-67200ACD7D82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretProtection.Web", "SecretProtection.Web\SecretProtection.Web.csproj", "{93C38EC6-96FE-4374-80A6-3FF42B889CA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWeb.CORS.API", "MyWeb.API\MyWeb.CORS.API.csproj", "{B5C97E88-7B44-4DF1-8D2A-EB7B705CFEFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWeb.CORS.Web", "MyWeb.CORS.Web\MyWeb.CORS.Web.csproj", "{E57EB163-B60F-4FE7-A5A6-8EE3D5624761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSS.Web", "XSS.Web\XSS.Web.csproj", "{BDEA8A78-E0A3-4CFB-B7F8-E577AE624503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A47481-28A0-47F7-BAD0-AAA1DFC13D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A47481-28A0-47F7-BAD0-AAA1DFC13D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A47481-28A0-47F7-BAD0-AAA1DFC13D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A47481-28A0-47F7-BAD0-AAA1DFC13D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680CE905-0929-4F2C-A4D3-67200ACD7D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680CE905-0929-4F2C-A4D3-67200ACD7D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680CE905-0929-4F2C-A4D3-67200ACD7D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680CE905-0929-4F2C-A4D3-67200ACD7D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C38EC6-96FE-4374-80A6-3FF42B889CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C38EC6-96FE-4374-80A6-3FF42B889CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C38EC6-96FE-4374-80A6-3FF42B889CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C38EC6-96FE-4374-80A6-3FF42B889CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C97E88-7B44-4DF1-8D2A-EB7B705CFEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C97E88-7B44-4DF1-8D2A-EB7B705CFEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C97E88-7B44-4DF1-8D2A-EB7B705CFEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C97E88-7B44-4DF1-8D2A-EB7B705CFEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57EB163-B60F-4FE7-A5A6-8EE3D5624761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57EB163-B60F-4FE7-A5A6-8EE3D5624761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57EB163-B60F-4FE7-A5A6-8EE3D5624761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57EB163-B60F-4FE7-A5A6-8EE3D5624761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDEA8A78-E0A3-4CFB-B7F8-E577AE624503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDEA8A78-E0A3-4CFB-B7F8-E577AE624503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDEA8A78-E0A3-4CFB-B7F8-E577AE624503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDEA8A78-E0A3-4CFB-B7F8-E577AE624503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A31DACC0-59F6-4B52-9B9A-341E279603EE}
+	EndGlobalSection
+EndGlobal

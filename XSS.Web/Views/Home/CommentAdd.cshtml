@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "CommentAdd";
+}
+
+<form method="post" asp-antiforgery="false">
+    <input type="text" name="name" />
+    <br />
+    <textarea name="comment"></textarea>
+    <br />
+
+    <input type="submit" value="Yorum Ekle" />
+
+    @*<br /><hr />
+        <h1>
+            Yorumlar
+        </h1>
+        <strong>@ViewBag.name</strong>
+        <hr />
+        <span>@Html.Raw(ViewBag.comment)</span>*@
+</form>
+
+<h1>
+    Yorumlar
+</h1>
+@if (ViewBag.comment != null)
+{
+    foreach (var item in ViewBag.comment)
+    {
+        <span>@Html.Raw(item)</span>
+        <br />
+    }
+}
+
+
+
